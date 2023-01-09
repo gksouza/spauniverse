@@ -18,6 +18,10 @@ body {
   background-image: url(/assets/bg-universe.png);
 }
 
+nav a:nth-child(3) {
+  color: var(--text-hover-color);
+}
+
 .wrapper-universe {
   margin-top: 30rem;
   margin-left: 10rem;
