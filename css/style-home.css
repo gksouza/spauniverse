@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; 
+  --text-color-main: #8D8D99;
+  --text-hover-color: #FFFFFF;
+  --text-color-secundary: #E1E1E6;
+  --text-color-third: #02799D;
+
+  --nav-height: 7.2rem;
+}
+
+nav a:nth-child(2) {
+  color: var(--text-hover-color);
+}
