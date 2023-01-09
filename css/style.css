@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; 
+  --text-color-main: #8D8D99;
+  --text-hover-color: #FFFFFF;
+  --text-color-secundary: #E1E1E6;
+  --text-color-third: #02799D;
+
+  --nav-height: 7.2rem;
+}
+
+body {
+  background-image: url(/assets/bg-home.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*============CONGIGURAÇÕES DE NAVEGAÇÃO============*/
+
+nav {
+  display: flex;
+
+  height: var(--nav-height);
+
+  position: fixed;
+  top: 0;
+  width: 100vw;
+          
+  z-index: 100;
+}
+
+nav .wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 5rem;
+  padding-left: 4.2rem;
+  gap: 3.2rem;
+}
+
+nav a {
+  text-decoration: none;
+
+  color: var(--text-color-main);
+  
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+nav a:hover {
+  color: var(--text-hover-color);
+  font-weight: bold;
+}
+
+.wrapper-home {
+  margin-top: 30rem;
+  display: block;
+
+  text-align: center;
+  
+  gap: 2rem;
+}
+
+h1 {
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+
+  color: var(--text-color-secundary);
+  margin-bottom: 2.4rem;
+}
+
+.button-a {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--text-hover-color);
+
+  text-transform: uppercase;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+
+
+  border: 2px solid var(--text-hover-color);
+  border-radius: 5px;
+
+  padding: 1.2rem 3.2rem;
+
+  cursor: pointer;
+}
+
+.button-a:hover {
+  background-color: var(--text-hover-color);
+  color: var(--text-color-third);
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color:var(--text-color-secundary);
+
+  width: 64.8rem;
+  height: 20.3rem;
+}
+
+.error {
+  font-size: 2.8rem; ;
+}
+@media (max-width: 700px) {
+  .logo {
+    width: 60%;
+    margin-left: 1.5rem;
+  }
+
+  nav .wrapper{
+    padding-left: 1.5rem;
+    gap: 1rem;
+  }
+  
+  nav a {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .button-a {
+    font-size: 1rem;
+  
+    padding: 1rem 3rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    width: 86%;
+    height: 10.3rem;
+  }
+}
