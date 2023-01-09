@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; 
+  --text-color-main: #8D8D99;
+  --text-hover-color: #FFFFFF;
+  --text-color-secundary: #E1E1E6;
+  --text-color-third: #02799D;
+
+  --nav-height: 7.2rem;
+}
+
+body {
+  background-image: url(/assets/bg-universe.png);
+}
+
+.wrapper-universe {
+  margin-top: 30rem;
+  margin-left: 10rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color:var(--text-color-secundary);
+
+  width: 64.8rem;
+  height: 20.3rem;
+}
+
+@media (max-width: 700px) {
+  .wrapper-universe {
+    margin-left: 4rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+    width: 86%;
+    height: 10.3rem;
+  }
+}
