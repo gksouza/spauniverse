@@ -38,6 +38,8 @@ p {
 
   width: 64.8rem;
   height: 20.3rem;
+
+  animation: slidein 3s infinite;
 }
 
 @media (max-width: 700px) {
