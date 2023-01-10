@@ -101,12 +101,18 @@ h1 {
   padding: 1.2rem 3.2rem;
 
   cursor: pointer;
+
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .button-a:hover {
   background-color: var(--text-hover-color);
   color: var(--text-color-third);
+  box-shadow: 0 0 40px 40px var(--text-hover-color) inset;
 }
+
 p {
   font-style: normal;
   font-weight: 400;
