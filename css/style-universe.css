@@ -1,7 +1,7 @@
 @import url(./style.css);
 
 body {
-  background-image: url(/assets/bg-universe.png);
+  background-image: url(../assets/bg-universe.png);
   transition: background-image 500ms ease;
 }
 
