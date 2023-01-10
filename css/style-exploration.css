@@ -15,7 +15,7 @@
 }
 
 body {
-  background-image: url(/assets/bg-exploration.png);
+  background-image: url(../assets/bg-exploration.png);
   transition: background-image 300ms ease;
 }
 
