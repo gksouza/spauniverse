@@ -16,6 +16,7 @@
 
 body {
   background-image: url(/assets/bg-universe.png);
+  transition: background-image 500ms ease;
 }
 
 nav a:nth-child(3) {
