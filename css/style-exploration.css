@@ -2,7 +2,7 @@
 
 body {
   background-image: url(../assets/bg-exploration.png);
-  transition: background-image 300ms ease;
+  transition: background-image 3ms ease;
 }
 
 nav a:nth-child(4) {
