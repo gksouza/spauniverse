@@ -25,8 +25,8 @@ p {
   width: 64.8rem;
   height: 20.3rem;
 
-  animation: slidein 3s ease-in;
-  animation-delay: 3s;
+  animation: slidein 2s ease-in;
+
 }
 
 @media (max-width: 700px) {
