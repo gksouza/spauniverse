@@ -84,6 +84,7 @@ h1 {
 
   opacity: 0;
   animation: appear .2s forwards;
+  animation-delay: 3s;
 }
 
 .button-a {
