@@ -1,4 +1,4 @@
-@import url(./style.css);
+@import url(../style.css);
 
 nav a:nth-child(2) {
   color: var(--text-hover-color);
