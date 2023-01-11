@@ -82,7 +82,8 @@ h1 {
   margin-bottom: 2.4rem;
   transition: transform 0.3s;
 
-  animation: appear 1s forwards;
+  animation: appear 2s forwards;
+  animation-delay: 2s;
 }
 
 .button-a {
