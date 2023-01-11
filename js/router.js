@@ -18,6 +18,6 @@ export class Router {
 
     fetch(route)
     .then((data) => data.text())
-    .then(html => {document.querySelector('#app').innerHTML = html})
+    .then(html => document.querySelector('#app').innerHTML = html)
   }
 }
