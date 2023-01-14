@@ -125,48 +125,16 @@ p {
 
   width: 64.8rem;
   height: 20.3rem;
-}
-
-/*UNIVERSE*/
-
-.wrapper-universe {
-  margin-top: 30rem;
-  margin-left: 10rem;
-}
-
-p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 160%;
-  color:var(--text-color-secundary);
-
-  width: 64.8rem;
-  height: 20.3rem;
 
   animation: slidein 3s ease;
 }
 
-/*EXPLORATION*/
 
-.wrapper-exploration {
+.wrapper-universal{
   margin-top: 30rem;
   margin-left: 10rem;
 }
 
-
-p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 160%;
-  color:var(--text-color-secundary);
-
-  width: 64.8rem;
-  height: 20.3rem;
-
-  animation: slidein 2s ease-in;
-}
 
 @media (max-width: 700px) {
   .wrapper-exploration {
