@@ -82,9 +82,7 @@ h1 {
   margin-bottom: 2.4rem;
   transition: transform 3s;
 
-  /*animation: appear 3s forwards;*/
-  animation: 1s linear 3s slidein;
-
+  animation: appear 3s forwards;
 }
 
 .button-a {
