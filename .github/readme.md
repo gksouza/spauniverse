@@ -50,6 +50,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Venha ver como ficou e teste as funcionalidades:
 
-https://daiaanebarbosaf.github.io/spa-universe/
+https://spauniverse-amber.vercel.app
 
 ---
