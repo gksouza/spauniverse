@@ -43,8 +43,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-![prewiew](.github/prewiew.PNG)
-![prewiew](.github/prewiew02.PNG)
+![prewiew](./prewiew.PNG)
+![prewiew](./prewiew2.PNG)
+![prewiew](./prewiew3.PNG)
+![prewiew](./prewiew4.PNG)
 
 ## Venha ver como ficou e teste as funcionalidades:
 
