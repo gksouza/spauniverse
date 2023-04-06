@@ -48,8 +48,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![prewiew](./prewiew3.PNG)
 ![prewiew](./prewiew4.PNG)
 
-## Venha ver como ficou e teste as funcionalidades:
-
-https://spauniverse-amber.vercel.app
-
 ---
