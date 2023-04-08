@@ -49,3 +49,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![prewiew](./prewiew4.PNG)
 
 ---
+
+Feito por Daiane Farias 👋  [Me acompanhe nas redes sociais!](https://daiaanebarbosaf.github.io/rocketlinks/)
